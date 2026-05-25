@@ -36,7 +36,7 @@ export default function Contact() {
             </p>
 
             <p className="mt-2 text-gray-600 break-all">
-              mdomarbin8080@gmail.com
+              info@almuneertrd.ae
             </p>
           </div>
 
