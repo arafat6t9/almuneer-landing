@@ -5,6 +5,7 @@ import Products from "./sections/Products";
 import ComingSoon from "./sections/ComingSoon";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import { Helmet } from "react-helmet";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
@@ -16,6 +17,43 @@ function App() {
 
     <div className="overflow-hidden bg-white">
 
+      <Helmet>
+
+        <title>
+          Al Muneer General Trading LLC | Industrial Trading Solutions UAE
+        </title>
+
+        <meta
+          name="description"
+          content="Al Muneer General Trading LLC supplies industrial fittings, warehouse shelving, bird protection systems, hardware products and commercial utility solutions across UAE."
+        />
+
+        <meta
+          name="keywords"
+          content="industrial trading UAE, warehouse shelving UAE, brass fittings UAE, industrial valves Ras Al Khaimah, Al Muneer Trading LLC"
+        />
+
+        <meta
+          property="og:title"
+          content="Al Muneer General Trading LLC"
+        />
+
+        <meta
+          property="og:description"
+          content="Industrial trading solutions and commercial supply services across UAE."
+        />
+
+        <meta
+          property="og:type"
+          content="website"
+        />
+
+        <meta
+          property="og:url"
+          content="https://almuneertrd.ae"
+        />
+
+      </Helmet>
       <Navbar />
 
       <Hero />
